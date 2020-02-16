@@ -4,11 +4,12 @@ Plugin for simple enhancement html webpack plugin for make possibility to define
 
 Plugin solves problem with JS/CSS basePath on any templating systems, like on following example:
 
-`new HtmlWebpackPlugin({
+```js
+    new HtmlWebpackPlugin({
     filename: ROOT_PATH + '/app/presenters/templates/@layout.latte',
     template: ROOT_PATH + '/app/assets/@layout.latte',
     basePath: '{$basePath}/dist/'
- }),`
+ }),```
 
 ...it will inject into HTML:
 `< script src="{$basePath}/dist/app.js" ...`
