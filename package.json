@@ -1,0 +1,18 @@
+{
+  "name": "html-webpack-basepath-plugin",
+  "version": "0.0.5",
+  "description": "Plugin for html webpack plugin for make possibility to define basePath option. basePath option will overwrite the path for JS and CSS files injected by webpack-html-plugin into html file.",
+  "main": "index.js",
+  "keywords": [
+    "html-webpack-plugin"
+  ],
+  "repository": {
+  "type" : "git",
+  "url" : "https://github.com/acqsk/html-webpack-basepath-plugin.git"
+},
+  "author": "acqsk",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^4.0.0-beta.11"
+  }
+}
