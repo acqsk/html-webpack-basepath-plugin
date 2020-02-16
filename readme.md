@@ -9,7 +9,8 @@ Plugin solves problem with JS/CSS basePath on any templating systems, like on fo
     filename: ROOT_PATH + '/app/presenters/templates/@layout.latte',
     template: ROOT_PATH + '/app/assets/@layout.latte',
     basePath: '{$basePath}/dist/'
- }),```
+ }),
+ ```
 
 ...it will inject into HTML:
 `< script src="{$basePath}/dist/app.js" ...`
